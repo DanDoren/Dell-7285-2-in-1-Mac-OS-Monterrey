@@ -48,6 +48,7 @@ Modified GRUB Shell (https://github.com/datasone/grub-mod-setup_var/releases)
 ControlMsrE2 (https://github.com/acidanthera/OpenCorePkg/releases)
 
 **STEP 2**
+
 To set DVMT run Modified GRUB Shell and write:
 
 **setup_var 0x795 0x0** --> setup_var 0x795 0x3
@@ -57,9 +58,10 @@ In this case I set the pre-allocated video to max that's why I use 0x3 instead 0
 
 
 **STEP 3**
+
 RUN ControlMsrE2.efi and this should provide you one of the following:
 
-CFG-Lock is enabled:
+CFG-Lock is enabled
 This firmware has LOCKED MSR 0xE2 register!
 
 CFG-Lock is disabled:
