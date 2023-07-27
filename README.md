@@ -10,7 +10,7 @@ Working Mac OS Monterrey Dell Latitude 7285 with OpenCore 0.9.3
 - Audio: Realtek ALC3253 (ALC225)
 - WiFi&BT: AC 8265 Wi-Fi + BT 4.2 (2x2)
 
-###This guide intended only for educational purposes and I'm not responsible for any damage to your laptop.  
+### This guide intended only for educational purposes and I'm not responsible for any damage to your laptop.  
 
 **Preparation**
 Enter to BIOS and load DEFAULT Settings then disable and change:
