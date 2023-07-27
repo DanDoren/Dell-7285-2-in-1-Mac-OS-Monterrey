@@ -41,7 +41,8 @@ Here you going to find 2 EFI Folders:
 Prepare your USB installer of macOS Monterrey and add this files inside EFI/OC/Tools (you can use Proper tree, OCAT on Windows or OpenCore Configurator on Mac)
 
 
-###You must do this every time you load Default Setting in BIOS
+
+### You must do this every time you load Default Setting in BIOS
 
 Modified GRUB Shell (https://github.com/datasone/grub-mod-setup_var/releases)
 ControlMsrE2 (https://github.com/acidanthera/OpenCorePkg/releases)
@@ -70,7 +71,6 @@ If your MSR is LOCKED run Modified GRUB Shell and write:
 **Setup_var 0x4ed 0x0** <-- to disable MSR/CFG lock
 
 This will activate QE/CI graphic acceleration on iGPU
-
 
 **STEP 4**
 Proceed to install Mac OS on your Dell 7285.
